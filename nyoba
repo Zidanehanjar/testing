@@ -1,2 +1,19 @@
 testing
 test 2
+
+CREATE TABLE pesawat(
+	kode_pesawat VARCHAR(50) PRIMARY KEY NOT NULL,
+	nama_pesawat VARCHAR(50) NOT NULL,
+	jenis_pesawat VARCHAR(50) NOT NULL
+
+);
+
+
+
+
+CREATE TABLE maskapai(
+	kode_maskapai VARCHAR(50) PRIMARY KEY NOT NULL,
+	nama_maskapai VARCHAR(50) NOT NULL
+
+
+);
